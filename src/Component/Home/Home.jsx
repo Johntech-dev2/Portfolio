@@ -31,7 +31,7 @@ function Home() {
         <button className='hover:z-50 transition-all duration-300 ease-in-out hover:scale-125 bg-purple-600 p-2 rounded-md text-white '>Hire me</button>
      </a>
      </div>
-     <img src='homeImage.png' className=' w-[300px] md:w-[400px] md:whitespace-normal sm:w-200 sm:ml-[360px]'/>
+     <img src='homeImage.png' className=' w-[300px] md:w-[400px] md:whitespace-normal sm:w-200 sm:mx-auto md:mx-auto '/>
      <div>
      </div>
      </div>
