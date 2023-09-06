@@ -29,7 +29,7 @@ function Nav() {
     //  </div>
     // </div>
     <div>
-        <div  className='flex justify-between text-[10px] font-outfit font-medium'>
+        <div  className='flex justify-between text-[20px] font-outfit font-medium'>
             <h1 className='text-[30px] mt-6 ml-4'>J<span className='text-purple-600 '>O</span>H<span className='text-purple-600'>N</span></h1>
             <div className='flex md:hidden mr-2 p-[28px] h-6'>
             <div>

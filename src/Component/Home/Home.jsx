@@ -5,7 +5,7 @@ import {FaLinkedinIn} from 'react-icons/fa'
 import {BiLogoGmail} from 'react-icons/bi'
 function Home() {
   return (
-        <div id='Home' className='mt-7 px-4 md:px-20 flex flex-col md:flex-row'>
+        <div id='Home' className='mt-7 px-4 flex flex-col md:px-20 md:flex-row'>
          <div>
          <h1 className='text-[35px] font-medium font-outfit  mb-2 text-center md:text-[30px]'>Hello, I'M John</h1>
            <h1 className='text-[35px] font-medium font-outfit text-center mb-[20px] text-purple-600 md:whitespace-normal'>
@@ -20,15 +20,15 @@ function Home() {
                     1000,
                  ]} />
            </h1>
-     <p className='text-gray-500 w-[350px] text-[15px] mb-[20px] md:ml-[10px] lg:ml-[120px] xl:-[140px] font-outfit font-extralight md:whitespace-normal'>I am John tech i am a front-end react web developer and  With a passion for creating innovative and user-friendly websites.</p> 
+     <p className='text-gray-500 xl:w-[550px] lg:w-[450px] md:w-[400px] sm:w-[250pxs] text-[25px] text-center mb-[20px]  font-outfit font-extralight'>I am John tech i am a front-end react web developer and  With a passion for creating innovative and user-friendly websites.</p> 
      <br />
      <a href='John Resume.pdf' download='John Resume.pdf'>
-     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white ml-[90px] mr-9 md:ml-[100px] font-outfit font-extralight' >
+     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white xl:ml-[200px] lg:ml-[160px] md:ml-[130px] sm:ml-[130px] ml-[130px] mr-[30px] font-outfit font-extralight' >
         Resume
      </button>
      </a>
      <a href='#'>
-        <button className='hover:z-50 transition-all duration-300 ease-in-out hover:scale-125 bg-purple-600 p-2 rounded-md text-white'>Hire me</button>
+        <button className='hover:z-50 transition-all duration-300 ease-in-out hover:scale-125 bg-purple-600 p-2 rounded-md text-white '>Hire me</button>
      </a>
      </div>
      <img src='homeImage.png' className=' w-[300px] md:w-[400px] md:whitespace-normal'/>
