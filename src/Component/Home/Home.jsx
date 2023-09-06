@@ -23,7 +23,7 @@ function Home() {
      <p className='text-gray-500 xl:w-[550px] lg:w-[450px] md:w-[400px] sm:w-[250pxs] text-[25px] text-center mb-[20px]  font-outfit font-extralight'>I am John tech i am a front-end react web developer and  With a passion for creating innovative and user-friendly websites.</p> 
      <br />
      <a href='John Resume.pdf' download='John Resume.pdf'>
-     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white xl:ml-[200px] lg:ml-[160px] md:ml-[130px] sm:ml-[20px] sm:mr-[20px]  ml-[130px] mr-[30px] font-outfit font-extralight' >
+     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white xl:ml-[200px] lg:ml-[160px] md:ml-[130px] sm:ml-[20px] sm:mr-[20px] sm:mx-auto  ml-[130px] mr-[30px] font-outfit font-extralight' >
         Resume
      </button>
      </a>
@@ -31,7 +31,7 @@ function Home() {
         <button className='hover:z-50 transition-all duration-300 ease-in-out hover:scale-125 bg-purple-600 p-2 rounded-md text-white '>Hire me</button>
      </a>
      </div>
-     <img src='homeImage.png' className=' w-[300px] md:w-[400px] md:whitespace-normal sm:w-200 sm:mx-auto md:mx-auto '/>
+     <img src='homeImage.png' className=' w-[300px] md:w-[400px] md:whitespace-normal ml-[40px] sm:w-200 sm:mx-auto md:mx-auto '/>
      <div>
      </div>
      </div>
