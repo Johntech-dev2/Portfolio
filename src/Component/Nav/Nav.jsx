@@ -29,8 +29,8 @@ function Nav() {
     //  </div>
     // </div>
     <div>
-        <div  className='flex justify-between'>
-            <img src='logo.png' className='h-28' />
+        <div  className='flex justify-between text-[10px] font-outfit font-medium'>
+            <h1 className='text-[30px] mt-6 ml-4'>J<span className='text-purple-600 '>O</span>H<span className='text-purple-600'>N</span></h1>
             <div className='flex md:hidden mr-2 p-[28px] h-6'>
             <div>
               {!toggle?
@@ -39,8 +39,8 @@ function Nav() {
             <AiOutlineClose onClick={()=>setToggle(false)} /> 
               }
               {toggle?
-                   <ul className='fixed right-0 top-0 w-[60%] bg-white mt-16'>
-                   <li className='mr-2 transition-all ease-in-out hover:scale-110 p-6'>Home</li>
+                   <ul className='fixed right-0 top-0 w-[45%] bg-white mt-16'>
+                   <li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Home</li>
                    <li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About me</li>
                    <li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skills</li>
                    <li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Portfolio</li>
