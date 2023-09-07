@@ -34,9 +34,9 @@ function Nav() {
             <div className='flex md:hidden mr-2 p-[28px] h-6'>
             <div>
               {!toggle?
-            <AiOutlineMenu onClick={()=>setToggle(true)} />
+            <AiOutlineMenu onClick={()=>setToggle(true)} className='fixed' />
                  :
-            <AiOutlineClose onClick={()=>setToggle(false)} /> 
+            <AiOutlineClose onClick={()=>setToggle(false)} className='fixed' /> 
               }
               {toggle?
                    <ul className='absolute right-0 top-0 w-[45%] bg-white mt-16'>
@@ -49,8 +49,8 @@ function Nav() {
               :null}
             </div>
             </div>
-            <div className=' fixed hidden md:flex'>
-                <ul className='flex flex-row'>
+            <div className='hidden md:flex'>
+                <ul className='flex flex-row fixed'>
                     <a href='#Home' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Home</li></a>
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
