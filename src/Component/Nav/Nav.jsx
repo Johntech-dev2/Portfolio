@@ -29,17 +29,17 @@ function Nav() {
     //  </div>
     // </div>
     <div>
-        <div  className='flex justify-between text-[20px] font-outfit font-medium fixed'>
+        <div  className='flex justify-between text-[20px] font-outfit font-medium'>
             <h1 className='text-[30px] mt-6 ml-4'>J<span className='text-purple-600 '>O</span>H<span className='text-purple-600'>N</span></h1>
             <div className='flex md:hidden mr-2 p-[28px] h-6'>
             <div>
               {!toggle?
-            <AiOutlineMenu onClick={()=>setToggle(true)} className='fixed' />
+            <AiOutlineMenu onClick={()=>setToggle(true)} />
                  :
-            <AiOutlineClose onClick={()=>setToggle(false)} className='fixed' /> 
+            <AiOutlineClose onClick={()=>setToggle(false)} /> 
               }
               {toggle?
-                   <ul className='fixed right-0 top-0 w-[45%] bg-white mt-16'>
+                   <ul className='absolute right-0 top-0 w-[45%] bg-white mt-16'>
                    <a href='#Home' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4 cursor-pointer'>Home</li></a>
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
@@ -50,7 +50,7 @@ function Nav() {
             </div>
             </div>
             <div className='hidden md:flex'>
-                <ul className='flex flex-row fixed'>
+                <ul className='flex flex-row'>
                     <a href='#Home' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Home</li></a>
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
