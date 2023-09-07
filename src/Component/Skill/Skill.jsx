@@ -4,8 +4,8 @@ const Skill = () => {
   return (
     <div id='skill' className='mt-10'>
        <div className='flex flex-row justify-center'>
-         <img src='skill.png' className='animate-bounce h-[80px] mb-4' />
-         <h3 className='font-outfit font-light text-[50px] mt-2'>Skills & <span className='text-purple-600'>Expertise</span></h3>
+         <img src='skill.png' className='animate-bounce h-[80px] mb-4 ' />
+         <h3 className='font-outfit font-light text-[30px] mt-2'>Skills & <span className='text-purple-600'>Expertise</span></h3>
        </div>
        <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
        <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
