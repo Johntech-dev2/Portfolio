@@ -42,7 +42,7 @@ function Nav() {
                    <ul className='absolute right-0 top-0 w-[45%] bg-white mt-16'>
                    <a href='#Home' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4 cursor-pointer'>Home</li></a>
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
-                    <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
+                    <a href='#skill' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Portfolio</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Contact</li></a>
                </ul>
