@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'outfit': ['"Outfit"']
+      },
+      backgroundImage: {
+        'wave': "url('/public/wave.png')",
       }
     },
   },
