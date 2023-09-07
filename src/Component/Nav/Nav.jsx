@@ -49,7 +49,7 @@ function Nav() {
               :null}
             </div>
             </div>
-            <div className='hidden md:flex'>
+            <div className=' fixed hidden md:flex'>
                 <ul className='flex flex-row'>
                     <a href='#Home' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Home</li></a>
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
