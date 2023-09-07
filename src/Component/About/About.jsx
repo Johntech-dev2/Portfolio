@@ -11,7 +11,7 @@ const About = () => {
         md:px-64 lg:px-48'>I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development'</h2>
     </div> 
     </div>
-    <div className='flex flex-col md:flex-row w-full  items-center mt-[-40px] md:mt-[-40px] gap-auto md:gap-28 md:ml-52  ml-auto md:pl-[210px]'>
+    <div className='flex flex-col md:flex-row w-full  items-center mt-[-40px] md:mt-[-40px] gap-[50px] ml-[30px] md:gap-28 md:ml-52'>
         <div className='rounded-lg  hover:bg-purple-600 mb-5 p-7 hover:text-white'>
           <img src='1.jpg' className='w-[230px] h-[230px] object-cover rounded-lg hover:bg-purple-600' />
           <h2 className='font-outfit font-normal text-center'>Front-end Developer</h2>
