@@ -11,18 +11,18 @@ const About = () => {
         md:px-64 lg:px-48'>I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development'</h2>
     </div> 
     </div>
-    <div className='flex flex-col md:flex-row w-full items-center mt-[-10px] md:mt-[-20px] gap-12 md:gap-28 md:ml-52'>
-        <div>
-          <img src='1.jpg' className='w-[230px] h-[230px] object-cover rounded-lg' />
+    <div className='flex flex-col md:flex-row w-full  items-center mt-[-40px] md:mt-[-40px] gap-auto md:gap-28 md:ml-52  ml-auto md:pl-[210px]'>
+        <div className='rounded-lg  hover:bg-purple-600 mb-5 p-7 hover:text-white'>
+          <img src='1.jpg' className='w-[230px] h-[230px] object-cover rounded-lg hover:bg-purple-600' />
           <h2 className='font-outfit font-normal text-center'>Front-end Developer</h2>
           <h2 className='text-[12px] text-gray-500 text-center'>Expert in Front-end developer</h2>
           </div>
-          <div>
+          <div className='rounded-lg hover:bg-purple-600 hover:text-white mb-5 p-7'>
           <img src='6491428.jpg' className='w-[230px] h-[230px] object-cover rounded-lg' />
           <h2 className='font-outfit font-normal text-center'>Web Developer</h2>
           <h2 className='text-[12px] text-gray-500 text-center'>Expert in Front-end developer</h2>
           </div>
-          <div>
+          <div className='rounded-lg hover:bg-purple-600 mb-5 p-7 hover:text-white'>
           <img src='19362653.jpg' className='w-[230px] h-[230px] object-cover rounded-lg' />
           <h2 className='font-outfit font-normal text-center'>React Developer</h2>
           <h2 className='text-[12px] text-gray-500 text-center'>Expert in Front-end developer</h2>
