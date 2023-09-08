@@ -9,7 +9,7 @@ const Contact = () => {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 justify-evenly px-10 md:px-44'>
             <img src='contactusbg.png'  className="w-[300px] mr-10"/>
-            <form name='contact' netlify>
+            <form name='contact' method='POST' netlify>
            <div className='w-full'>
            <div className='flex flex-col '>
             <label className='text-gray-400 '>Email</label>
