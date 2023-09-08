@@ -44,7 +44,7 @@ function Nav() {
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
                     <a href='#skill' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Portfolio</li></a>
-                    <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Contact</li></a>
+                    <a href='#Contact' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Contact</li></a>
                </ul>
               :null}
             </div>
@@ -55,7 +55,7 @@ function Nav() {
                     <a href='#About' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>About</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Skils</li></a>
                     <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Portfolio</li></a>
-                    <a href='#' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Contact</li></a>
+                    <a href='#Contact' className='hover:no-underline'><li className='mr-2 transition-all ease-in-out hover:scale-110 p-4'>Contact</li></a>
                 </ul>
             </div>
         </div>

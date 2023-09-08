@@ -4,7 +4,7 @@ import './App.css';
 import Nav from './Component/Nav/Nav';
 import About from './Component/About/About';
 import Skill from './Component/Skill/Skill';
-import Creative from './Component/Creative/Creative';
+import Contact from './Component/Ccf/Contact';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
       <Home />
       <About />
       <Skill />
-      <Creative />
+      <Contact />
     </div>
   );
 }

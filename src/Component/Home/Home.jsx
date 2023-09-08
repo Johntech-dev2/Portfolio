@@ -14,17 +14,17 @@ function Home() {
                  loop={Infinity}
                  steps={[
                     "React Developer",
-                    1000,
+                    3000,
                     "Web Developer",
-                    1000,
+                    3000,
                     "App Developer",
-                    1000,
+                    3000,
                  ]} />
            </h1>
      <p className='text-gray-500 xl:w-[550px] lg:w-[450px] md:w-[400px] sm:w-[250pxs] text-[25px] text-center mb-[20px]  font-outfit font-extralight'>I am John tech i am a front-end react web developer and  With a passion for creating innovative and user-friendly websites.</p> 
      <br />
      <a href='John Resume.pdf' download='John Resume.pdf'>
-     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-[8px] ml-auto rounded-md text-white xl:ml-[200px] lg:ml-[160px] md:ml-[130px] sm:ml-[20px] sm:mr-[20px]  mr-[20px] font-outfit font-extralight' >
+     <button className='hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-[8px] ml-auto rounded-md text-white xl:ml-[200px] lg:ml-[160px] md:ml-[100px] sm:ml-[20px] sm:mr-[20px]  mr-[20px] font-outfit font-extralight' >
         Resume
      </button>
      </a>

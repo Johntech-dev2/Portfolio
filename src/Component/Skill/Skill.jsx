@@ -58,7 +58,7 @@ const Skill = () => {
     className="w-[60px]"/>
       </div>
         </div>
-        </div>
+    </div>
     </div>
   )
 }
