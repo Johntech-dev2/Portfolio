@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id='Contact' className='mt-[80px]'>
       <div className='flex flex-row justify-center'>
-       <h3 className='font-outfit font-light text-[30px] mt-4 text-center'>Contact <span className='text-purple-600'>Us</span></h3>
+       <h3 className='font-outfit font-light text-[30px] mt-4 text-center'>Contact <span className='text-purple-600'>Me</span></h3>
        <img src='phone.png' className='w-[80px] animate-bounce' />
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 justify-evenly px-10 md:px-44'>
